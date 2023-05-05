@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+}
+.menum ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 150px;
+    border-bottom: 1px solid #000;
+}
+.menum li{
+    position: relative;
+}
+.menum li ul{
+    position: absolute;
+    list-style-type: none;
+    left: 149px;
+    width: 150px;
+    display: none;
+    top: 0px;
+}
+.menum li a{
+    display: block;
+    text-decoration: none;
+    background-color: #9CF;
+    color: #000;
+    font: bold 13px Verdana;
+    padding: 5px;
+    border: 1px solid #000;
+    border-bottom: 0;
+}
+.menum li a:hover{
+    background-color: #012d58;
+    color:#ff0;
+}
+.menum li:hover ul{
+    display: block;
+}
+*html ul li{
+    float: left;
+    height: 1%;
+}
+* html ul li a{
+    height: 1%;
+}
